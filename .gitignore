@@ -12,18 +12,14 @@ dist/
 build/
 *.whl
 
-# Virtual Environment
-web3env/  # Or whatever you named your virtual environment folder
+web3venv/ 
 
-# IDE-specific ignores
-.vscode/ # VS Code settings
+.vscode/ 
 
-# OS-specific ignores
-.DS_Store # macOS
+.DS_Store #mac
 Thumbs.db # Windows
 desktop.ini # Windows
 
-# Sensitive / Generated Files
 .env # For environment variables (API keys, etc.)
 *.log
 *.sqlite3 # For SQLite databases like db.sqlite3
