@@ -1,4 +1,4 @@
-from YABCOIN.Backend.util.util import has
+from ..util.util import hash256
 class BlockHeader:
     def __init__(self, version, previousblockhash, timestamp, bits):
         self.version=version
